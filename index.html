@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <main>
+    <section class="signin">
+      <div id="close-login-btn" class="fas fa-times"></div>
+      <form action="" class="signin-form">
+        <h3 class="heading">Sign In</h3>
+        <div class="input-group">
+          <label for="username">username</label>
+          <input type="text" name="username" id="username">
+          <label for="password">password</label>
+          <input type="password" name="pword" id="password">
+          <input type="checkbox" name="check" id="checkbox">
+          <label for="checkbox">remember me</label>
+        </div>
+        <input type="submit" value="Sign In" class="btn">
+
+        <div class="">
+          <p>Forget password ?<span> <a href="#">Click Here</a></span></p>
+          <p>Don't have an account ?<span> <a href="#">Create One</a></span></p>
+        </div>
+      </form>
+    </section>
+
+    <section class="header">
+
+      <header>
+        <div class="logo">
+          <a href="#" class="logo"> <i class="fas fa-book"></i> bookly </a>
+        </div>
+        <form action="#" class="search-form">
+          <div class="search-box">
+            <input type="search" name="searchbox" id="searchbox" placeholder="Search here....">
+            <label for="searchbox" class="fas fa-search"></label>
+          </div>
+
+        </form>
+        <div class="icons">
+          <div id="search-btn" class="fas fa-search"></div>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <div id="login-btn" class="fas fa-user"></div>
+        </div>
+      </header>
+      <nav class="navbar">
+        <ul class="navlinks">
+          <li class="nav-items">Home</li>
+          <li class="nav-items">Featured</li>
+          <li class="nav-items">Arrivals</li>
+          <li class="nav-items">Reviews</li>
+          <li class="nav-items">Blogs</li>
+        </ul>
+      </nav>
+
+    </section>
+
+    <!-- hero Section -->
+    <section class="hero">
+      <div class="container">
+
+        <div class="row">
+          <div class="hero-intro">
+            <h3>Upto 75% off</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repellendus temporibus explicabo quae
+              natus, error, quod labore tempore sequi possimus voluptates eos veniam facilis necessitatibus.</p>
+            <a href="#" class="btn">Shop Now</a>
+          </div>
+          <div class="book-slider swiper">
+            <div class="swiper-wrapper book-slider-images">
+              <img src="image/book-1.png" class="swiper-slide" alt="">
+              <img src="image/book-2.png" class="swiper-slide" alt="">
+              <img src="image/book-3.png" class="swiper-slide" alt="">
+              <img src="image/book-4.png" class="swiper-slide" alt="">
+              <img src="image/book-5.png" class="swiper-slide" alt="">
+              <img src="image/book-6.png" class="swiper-slide" alt="">
+            </div>
+            <div class=""><img src="image/stand.png" class="stand" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ends here -->
+
+    <nav class="bottom-navbar">
+      <a href="#home" class="fas fa-home"></a>
+      <a href="#featured" class="fas fa-list"></a>
+      <a href="#arrivals" class="fas fa-tags"></a>
+      <a href="#reviews" class="fas fa-comments"></a>
+      <a href="#blogs" class="fas fa-blog"></a>
+    </nav>
+
+  </main>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
